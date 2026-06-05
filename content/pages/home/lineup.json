@@ -1,0 +1,47 @@
+{
+  "title": "Featured Performers & Voices",
+  "entries": [
+    {
+      "name": "DJ The Disco Cat",
+      "role": "Spinning all afternoon",
+      "image": "",
+      "link": ""
+    },
+    {
+      "name": "Deau Eyes",
+      "role": "Live music",
+      "image": "",
+      "link": ""
+    },
+    {
+      "name": "Delegate Rae Cousins",
+      "role": "Opening remarks",
+      "image": "",
+      "link": ""
+    },
+    {
+      "name": "Beth Marschak",
+      "role": "Opening remarks",
+      "image": "",
+      "link": ""
+    },
+    {
+      "name": "Council Member Kenya Gibson",
+      "role": "Festivities speaker",
+      "image": "",
+      "link": ""
+    },
+    {
+      "name": "Stephanie Lynch",
+      "role": "Festivities speaker",
+      "image": "",
+      "link": ""
+    },
+    {
+      "name": "Sarah Abubaker",
+      "role": "Festivities speaker",
+      "image": "",
+      "link": ""
+    }
+  ]
+}

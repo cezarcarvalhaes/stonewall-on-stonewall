@@ -1,0 +1,42 @@
+@import './font.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
+}
+
+.markdown p {
+	margin-bottom: 1em;
+}
+
+.markdown ul,
+.markdown ol {
+	margin-bottom: 1em;
+	padding-left: 1.5em;
+	list-style: disc;
+}
+
+.markdown ol {
+	list-style: decimal;
+}
+
+.markdown a {
+	cursor: pointer;
+	text-decoration: underline;
+	font-weight: 700;
+	color: var(--chakra-colors-brand-magenta);
+}
+
+.markdown a:hover {
+	color: var(--chakra-colors-brand-purple);
+}
+
+.markdown-subdued a {
+	cursor: pointer;
+	text-decoration: underline;
+	color: inherit;
+}

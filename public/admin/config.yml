@@ -1,0 +1,103 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# When running the CMS locally, run `npx decap-server` and uncomment the
+# line below to bypass git-gateway/Netlify Identity.
+# local_backend: true
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "General"
+        name: "site"
+        file: "content/settings/site.json"
+        fields:
+          - { label: "Site Title", name: "siteTitle", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Description (for search/social)", name: "description", widget: "text" }
+          - { label: "Contact Email", name: "email", widget: "string" }
+          - { label: "Call-to-action Label", name: "ctaLabel", widget: "string", required: false }
+          - { label: "Call-to-action Link", name: "ctaLink", widget: "string", required: false }
+
+  - name: "home"
+    label: "Home Page"
+    files:
+      - label: "Hero"
+        name: "hero"
+        file: "content/pages/home/sections/hero.md"
+        fields:
+          - { label: "Eyebrow / Small Heading", name: "eyebrow", widget: "string", required: false }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Date & Time", name: "date", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Button Label", name: "ctaLabel", widget: "string", required: false }
+          - { label: "Button Link", name: "ctaLink", widget: "string", required: false }
+          - { label: "Intro Text", name: "body", widget: "markdown" }
+
+      - label: "Parade"
+        name: "parade"
+        file: "content/pages/home/sections/parade.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle (route)", name: "subtitle", widget: "string", required: false }
+          - { label: "DJ / Highlight Badge", name: "dj", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Schedule"
+        name: "schedule"
+        file: "content/pages/home/schedule.yml"
+        fields:
+          - { label: "Section Title", name: "title", widget: "string" }
+          - label: "Events"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Time", name: "time", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
+
+      - label: "About / History"
+        name: "about"
+        file: "content/pages/home/sections/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Performers & Voices"
+        name: "lineup"
+        file: "content/pages/home/lineup.json"
+        fields:
+          - { label: "Section Title", name: "title", widget: "string" }
+          - label: "Performers"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role / Description", name: "role", widget: "string", required: false }
+              - { label: "Photo", name: "image", widget: "image", required: false }
+              - { label: "Link", name: "link", widget: "string", required: false }
+
+      - label: "Community Partners"
+        name: "partners"
+        file: "content/pages/home/partners.json"
+        fields:
+          - { label: "Section Title", name: "title", widget: "string" }
+          - label: "Partners"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Website URL", name: "url", widget: "string", required: false }
+              - { label: "Logo", name: "image", widget: "image", required: false }
+
+      - label: "Get Involved"
+        name: "get-involved"
+        file: "content/pages/home/sections/get-involved.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
