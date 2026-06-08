@@ -2,14 +2,30 @@
   "title": "Community Partners",
   "entries": [
     {
+      "name": "Studio Two Three",
+      "url": "https://studiotwothree.org",
+      "image": ""
+    },
+    {
+      "name": "Stephanie Lynch 5th District City Council",
+      "url": "https://lp.constantcontactpages.com/sl/caTNztR"
+    },
+    {
+      "name": "Sarah Abubaker 4th District City Council",
+      "url": "https://lp.constantcontactpages.com/sl/eFSdMIF/Fourth"
+    },
+    {
+      "name": "Woodland Heights Civic Association",
+      "url": "woodlandheightsrva.org"
+    },
+    {
       "name": "Equality Virginia",
       "url": "https://equalityvirginia.org",
       "image": ""
     },
     {
-      "name": "Studio Two Three",
-      "url": "https://studiotwothree.org",
-      "image": ""
+      "name": "Side By Side",
+      "url": "https://www.sidebysideva.org/"
     }
   ]
 }
