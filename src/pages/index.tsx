@@ -6,6 +6,7 @@ import type { ReactElement } from 'react';
 import Hero from '@sections/hero';
 import Parade from '@sections/parade';
 import Schedule from '@sections/schedule';
+import Festivities from '@sections/festivities';
 import About from '@sections/about';
 import Lineup from '@sections/lineup';
 import Partners from '@sections/partners';
@@ -36,6 +37,7 @@ function Home() {
 				<Hero />
 				<Parade />
 				<Schedule />
+				<Festivities />
 				<About />
 				<Lineup />
 				<Partners />

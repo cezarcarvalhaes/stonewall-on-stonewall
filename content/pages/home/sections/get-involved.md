@@ -1,11 +1,16 @@
 ---
-title: 'Get Involved'
+title: 'Volunteer & Support'
 ---
-There's a place for everyone on Stonewall Ave:
+This is a free, volunteer-run neighborhood event — and there's a place for everyone. Whether you want to bike marshal, be a puppet, carry a drum, support sound, carry a banner, help with setup or cleanup, or just jump in wherever you're needed, we'd love to have you.
 
-- **Screenprinting begins at 4PM** — bring a shirt or tote and make your own Stonewall on Stonewall merch.
-- **Decorate for the parade** — bikes, strollers, wagons, floats. The bigger and brighter, the better.
-- **Volunteer** — we need hands for setup, cleanup, and welcoming neighbors.
-- **Spread the word** — invite your block and share the event.
+**[Let us know how you want to help »](https://forms.gle/o6pGUdaLXYnmNGqL8)**
 
-Want to help make it happen? [Reach out to the organizers](mailto:stonewallonstonewall@gmail.com).
+A few specific ways to plug in:
+
+- **[Operate a puppet or beat a drum](https://docs.google.com/forms/d/e/1FAIpQLSdvucdvJ5_fx71GHBQnZ2meuAlLwpTIub8TQ8UUi12uA37fGw/viewform)** — sign up and we'll give you everything you need.
+- **[Bike marshal the parade](https://docs.google.com/forms/d/e/1FAIpQLSeDCa-21egZb9XiuiTIn-iJkJxYdTENNyAHYt5iV9iJWrYZJg/viewform)** — help keep paraders safe at the intersections.
+- **[Help plan Stonewall on Stonewall](https://docs.google.com/forms/d/e/1FAIpQLSeUcGzZ9ftknehzFrIgYYrGpXrTBWyaxwEn0FE6sQ6xzuG9NA/viewform)** — join the planning team.
+- **[Bring your organization to table](https://docs.google.com/forms/d/e/1FAIpQLSd0w6KK9zrUAPMX5KbDeu1y1O9bzR967GOh2Waiy435chVCqQ/viewform)** — set up at the gathering space, W 28th + Stonewall.
+- **Screen print with Studio Two Three** — come as early as 4PM and bring any shirts, flags, or fabric. Free printing from 4–5PM!
+
+Can't make it? Decorate your home and yard to spread cheer and solidarity to everyone in the parade. Questions? [Email us](mailto:stonewallonstonewall@gmail.com).

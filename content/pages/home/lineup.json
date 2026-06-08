@@ -5,41 +5,43 @@
       "name": "DJ Disco Cat",
       "role": "Spinning all afternoon",
       "image": "",
-      "link": ""
+      "link": "https://www.instagram.com/thediscocat/"
     },
     {
       "name": "Deau Eyes",
       "role": "Live music",
       "image": "",
-      "link": ""
+      "link": "https://www.instagram.com/deau_eyes/"
     },
     {
       "name": "Delegate Rae Cousins",
       "role": "Opening remarks",
       "image": "",
-      "link": ""
+      "link": "https://www.raecousins.com/"
     },
     {
       "name": "Kenya Gibson - Richmond City Council (3rd)",
       "role": "Speaker",
       "image": "",
-      "link": ""
+      "link": "https://www.kenyagibson.com/"
     },
     {
       "name": "Stephanie Lynch - Richmond City Council (5th)",
       "role": "Speaker",
       "image": "",
-      "link": ""
+      "link": "https://www.electstephanielynch.com/"
     },
     {
       "name": "Sarah Abubaker Richmond City Council (4th)",
       "role": "Speaker",
       "image": "",
-      "link": ""
+      "link": "https://sarahabubaker.com/"
     },
     {
       "name": "Lt. Gov. Ghazala Hashmi",
-      "role": "Speaker"
+      "role": "Speaker",
+      "image": "",
+      "link": "https://www.ltgov.virginia.gov/"
     }
   ]
 }

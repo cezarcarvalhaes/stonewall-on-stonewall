@@ -43,8 +43,10 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Subtitle (route)", name: "subtitle", widget: "string", required: false }
-          - { label: "DJ / Highlight Badge", name: "dj", widget: "string", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Video URL (YouTube/Vimeo/Drive)", name: "videoUrl", widget: "string", required: false }
+          - { label: "Route Map Image", name: "mapImage", widget: "image", required: false }
+          - { label: "Map Alt Text", name: "mapAlt", widget: "string", required: false }
 
       - label: "Schedule"
         name: "schedule"
@@ -65,6 +67,24 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Festivities"
+        name: "festivities"
+        file: "content/pages/home/sections/festivities.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Gathering Space Map", name: "mapImage", widget: "image", required: false }
+          - { label: "Map Alt Text", name: "mapAlt", widget: "string", required: false }
+          - { label: "Food Section Heading", name: "foodHeading", widget: "string", required: false }
+          - label: "Food Trucks"
+            name: "foodTrucks"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Logo", name: "image", widget: "image", required: false }
+              - { label: "Link", name: "url", widget: "string", required: false }
 
       - label: "Performers & Voices"
         name: "lineup"

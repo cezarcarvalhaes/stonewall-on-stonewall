@@ -4,28 +4,54 @@
     {
       "name": "Studio Two Three",
       "url": "https://studiotwothree.org",
-      "image": ""
+      "image": "/images/uploads/studio-two-three.webp"
     },
     {
       "name": "Stephanie Lynch 5th District City Council",
-      "url": "https://lp.constantcontactpages.com/sl/caTNztR"
+      "url": "https://lp.constantcontactpages.com/sl/caTNztR",
+      "image": "/images/uploads/stephanie-lynch.jpg"
     },
     {
       "name": "Sarah Abubaker 4th District City Council",
-      "url": "https://lp.constantcontactpages.com/sl/eFSdMIF/Fourth"
+      "url": "https://lp.constantcontactpages.com/sl/eFSdMIF/Fourth",
+      "image": "/images/uploads/sarah-abubaker.jpg"
     },
     {
       "name": "Woodland Heights Civic Association",
-      "url": "woodlandheightsrva.org"
+      "url": "https://woodlandheightsrva.org",
+      "image": "/images/uploads/woodland-heights.png"
     },
     {
       "name": "Equality Virginia",
       "url": "https://equalityvirginia.org",
-      "image": ""
+      "image": "/images/uploads/equality-virginia.png"
     },
     {
       "name": "Side By Side",
       "url": "https://www.sidebysideva.org/"
+    },
+    {
+      "name": "Earthfolk Collective",
+      "url": "https://www.earthfolkcollective.org/"
+    },
+    {
+      "name": "Richmond Public Library",
+      "url": "https://rvalibrary.org",
+      "image": "/images/uploads/richmond-public-library.jpg"
+    },
+    {
+      "name": "The Health Brigade",
+      "url": "https://thehealthbrigade.org",
+      "image": "/images/uploads/health-brigade.jpg"
+    },
+    {
+      "name": "Richmond DSA",
+      "url": "https://richmonddsa.org",
+      "image": "/images/uploads/richmond-dsa.png"
+    },
+    {
+      "name": "HQ (Voter Registration)",
+      "image": "/images/uploads/hq.jpg"
     }
   ]
 }

@@ -3,6 +3,7 @@ import {
 	Container,
 	Flex,
 	Heading,
+	Image,
 	Link,
 	Text,
 } from '@chakra-ui/react';
@@ -15,6 +16,51 @@ interface Partner {
 	image?: string;
 }
 
+const cardProps = {
+	bg: 'white',
+	borderRadius: 'xl',
+	boxShadow: 'sm',
+	p: 4,
+	h: { base: '6.5rem', md: '7.5rem' },
+	w: { base: '9.5rem', md: '11.5rem' },
+	display: 'flex',
+	alignItems: 'center',
+	justifyContent: 'center',
+} as const;
+
+function PartnerCard({ partner }: { partner: Partner }) {
+	const inner = partner.image ? (
+		<Image
+			src={partner.image}
+			alt={partner.name}
+			maxH='4rem'
+			maxW='full'
+			objectFit='contain'
+			borderRadius='md'
+		/>
+	) : (
+		<Text fontWeight={700} fontSize='lg' textAlign='center' color='brand.ink'>
+			{partner.name}
+		</Text>
+	);
+
+	if (partner.url) {
+		return (
+			<Link
+				href={partner.url}
+				target='_blank'
+				rel='noopener noreferrer'
+				transition='all 0.15s ease'
+				_hover={{ textDecor: 'none', transform: 'translateY(-3px)', boxShadow: 'md' }}
+				{...cardProps}
+			>
+				{inner}
+			</Link>
+		);
+	}
+	return <Box {...cardProps}>{inner}</Box>;
+}
+
 function Partners() {
 	const { title, entries } = partners as { title: string; entries: Partner[] };
 
@@ -24,29 +70,10 @@ function Partners() {
 				<Heading as='h2' size='2xl' mb={10}>
 					{title}
 				</Heading>
-				<Flex justify='center' align='center' wrap='wrap' gap={{ base: 8, md: 16 }}>
-					{entries?.map((partner) => {
-						const inner = partner.image ? (
-							// eslint-disable-next-line @next/next/no-img-element
-							<img
-								src={partner.image}
-								alt={partner.name}
-								style={{ maxHeight: '5rem', maxWidth: '14rem', objectFit: 'contain' }}
-							/>
-						) : (
-							<Text fontSize='2xl' fontWeight={800}>
-								{partner.name}
-							</Text>
-						);
-
-						return partner.url ? (
-							<Link key={partner.name} href={partner.url} target='_blank' rel='noopener noreferrer'>
-								{inner}
-							</Link>
-						) : (
-							<Box key={partner.name}>{inner}</Box>
-						);
-					})}
+				<Flex justify='center' align='center' wrap='wrap' gap={{ base: 4, md: 6 }}>
+					{entries?.map((partner) => (
+						<PartnerCard key={partner.name} partner={partner} />
+					))}
 				</Flex>
 			</Container>
 		</Box>
