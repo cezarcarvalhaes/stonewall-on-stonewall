@@ -28,11 +28,13 @@
     },
     {
       "name": "Side By Side",
-      "url": "https://www.sidebysideva.org/"
+      "url": "https://www.sidebysideva.org/",
+      "image": "/images/uploads/sidebyside.jpg"
     },
     {
-      "name": "Earthfolk Collective",
-      "url": "https://www.earthfolkcollective.org/"
+      "name": "Earthfolk Collective/Høly River",
+      "url": "https://www.holyrivermusic.com/",
+      "image": "/images/uploads/holyriver.png"
     },
     {
       "name": "Richmond Public Library",
@@ -93,6 +95,11 @@
       "name": "DJ Disco Cat",
       "url": "https://www.instagram.com/thediscocat/",
       "image": "/images/uploads/discocat.png"
+    },
+    {
+      "name": "Richmond LGBTQ+ Chamber",
+      "url": "https://richmondlgbtqchamber.org/",
+      "image": "/images/uploads/richmondlgbtqchamber-hlogo-color.png"
     }
   ]
 }
