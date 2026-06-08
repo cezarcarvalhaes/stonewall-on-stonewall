@@ -1,15 +1,19 @@
 ---
-title: 'At the Gathering Space'
-mapImage: '/images/uploads/gathering-space-map.jpg'
-mapAlt: 'Map of the gathering space at W 28th + Stonewall showing food, tables, and activity locations'
-foodHeading: 'Food Trucks'
+title: At the Gathering Space
+mapImage: /images/uploads/gathering-space-map.jpg
+mapAlt: Map of the gathering space at W 28th + Stonewall showing food, tables,
+  and activity locations
+foodHeading: Food Trucks
 foodTrucks:
-  - name: 'Ruby Scoops'
-    image: '/images/uploads/ruby-scoops.jpg'
-  - name: 'Mobile 1115'
-    image: '/images/uploads/mobile-1115.jpg'
-  - name: 'Corazón Cake Company'
-    image: ''
+  - name: Ruby Scoops
+    image: /images/uploads/ruby-scoops.jpg
+    url: https://www.rubyscoops.com/
+  - name: Mobile 1115
+    image: /images/uploads/mobile-1115.jpg
+    url: https://www.1115foodtruck.com/
+  - name: Corazón Cake Company
+    image: /images/uploads/corazon.jpg
+    url: https://www.corazoncakeco.com/
 ---
 After the parade, gather at **W 28th + Stonewall** for music, food, and community. Here's some of what you'll find:
 
