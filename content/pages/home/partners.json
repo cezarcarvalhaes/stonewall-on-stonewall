@@ -9,7 +9,7 @@
     {
       "name": "Stephanie Lynch 5th District City Council",
       "url": "https://lp.constantcontactpages.com/sl/caTNztR",
-      "image": "/images/uploads/stephanie-lynch.jpg"
+      "image": "/images/uploads/stephanie-lynch.png"
     },
     {
       "name": "Sarah Abubaker 4th District City Council",
@@ -52,6 +52,11 @@
     {
       "name": "HQ (Voter Registration)",
       "image": "/images/uploads/hq.jpg"
+    },
+    {
+      "name": "Trans Jam",
+      "url": "https://transjamrva.org/",
+      "image": "/images/uploads/transjam.jpg"
     }
   ]
 }
