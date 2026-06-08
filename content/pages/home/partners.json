@@ -2,84 +2,9 @@
   "title": "Community Partners",
   "entries": [
     {
-      "name": "Studio Two Three",
-      "url": "https://studiotwothree.org",
-      "image": "/images/uploads/studio-two-three.webp"
-    },
-    {
-      "name": "Stephanie Lynch 5th District City Council",
-      "url": "https://lp.constantcontactpages.com/sl/caTNztR",
-      "image": "/images/uploads/stephanie-lynch.png"
-    },
-    {
-      "name": "Sarah Abubaker 4th District City Council",
-      "url": "https://lp.constantcontactpages.com/sl/eFSdMIF/Fourth",
-      "image": "/images/uploads/sarah-abubaker.jpg"
-    },
-    {
-      "name": "Woodland Heights Civic Association",
-      "url": "https://woodlandheightsrva.org",
-      "image": "/images/uploads/woodland-heights.png"
-    },
-    {
-      "name": "Equality Virginia",
-      "url": "https://equalityvirginia.org",
-      "image": "/images/uploads/equality-virginia.png"
-    },
-    {
-      "name": "Side By Side",
-      "url": "https://www.sidebysideva.org/",
-      "image": "/images/uploads/sidebyside.jpg"
-    },
-    {
-      "name": "Earthfolk Collective/Høly River",
-      "url": "https://www.holyrivermusic.com/",
-      "image": "/images/uploads/holyriver.png"
-    },
-    {
-      "name": "Richmond Public Library",
-      "url": "https://rvalibrary.org",
-      "image": "/images/uploads/richmond-public-library.jpg"
-    },
-    {
-      "name": "The Health Brigade",
-      "url": "https://thehealthbrigade.org",
-      "image": "/images/uploads/health-brigade.jpg"
-    },
-    {
-      "name": "Richmond DSA",
-      "url": "https://richmonddsa.org",
-      "image": "/images/uploads/richmond-dsa.png"
-    },
-    {
-      "name": "HQ",
-      "image": "/images/uploads/hq.jpg",
-      "url": "https://hq-shop.fourthwall.com/"
-    },
-    {
-      "name": "Trans Jam",
-      "url": "https://transjamrva.org/",
-      "image": "/images/uploads/transjam.jpg"
-    },
-    {
-      "name": "Metro Richmond Flying Squad",
-      "url": "https://rvaflyingsquad.com/",
-      "image": "/images/uploads/flying-squad.png"
-    },
-    {
-      "name": "Kenya Gibson",
-      "url": "https://kenyagibson.com",
-      "image": "/images/uploads/kenyagibson.webp"
-    },
-    {
-      "name": "River City Roller Derby",
-      "url": "https://rivercityrollerderby.com/",
-      "image": "/images/uploads/3c3db574-1672-4e39-84b6-04dfbe77eee5.png"
-    },
-    {
-      "name": "Rae Cousins",
-      "url": "https://www.raecousins.com/",
-      "image": "/images/uploads/cousins-logo-mc24_reverse-2-.avif"
+      "name": "All the Saints Theater Company",
+      "url": "https://cargocollective.com/allthesaintstheaterco",
+      "image": "/images/uploads/attsc.png"
     },
     {
       "name": "Deau Eyes",
@@ -87,19 +12,94 @@
       "image": "/images/uploads/deaueyes.jpg"
     },
     {
-      "name": "All the Saints Theater Company",
-      "url": "https://cargocollective.com/allthesaintstheaterco",
-      "image": "/images/uploads/attsc.png"
-    },
-    {
       "name": "DJ Disco Cat",
       "url": "https://www.instagram.com/thediscocat/",
       "image": "/images/uploads/discocat.png"
     },
     {
+      "name": "Earthfolk Collective/Høly River",
+      "url": "https://www.holyrivermusic.com/",
+      "image": "/images/uploads/holyriver.png"
+    },
+    {
+      "name": "Equality Virginia",
+      "url": "https://equalityvirginia.org",
+      "image": "/images/uploads/equality-virginia.png"
+    },
+    {
+      "name": "The Health Brigade",
+      "url": "https://thehealthbrigade.org",
+      "image": "/images/uploads/health-brigade.jpg"
+    },
+    {
+      "name": "HQ",
+      "image": "/images/uploads/hq.jpg",
+      "url": "https://hq-shop.fourthwall.com/"
+    },
+    {
+      "name": "Kenya Gibson",
+      "url": "https://kenyagibson.com",
+      "image": "/images/uploads/kenyagibson.webp"
+    },
+    {
+      "name": "Metro Richmond Flying Squad",
+      "url": "https://rvaflyingsquad.com/",
+      "image": "/images/uploads/flying-squad.png"
+    },
+    {
+      "name": "Rae Cousins",
+      "url": "https://www.raecousins.com/",
+      "image": "/images/uploads/cousins-logo-mc24_reverse-2-.avif"
+    },
+    {
+      "name": "Richmond DSA",
+      "url": "https://richmonddsa.org",
+      "image": "/images/uploads/richmond-dsa.png"
+    },
+    {
       "name": "Richmond LGBTQ+ Chamber",
       "url": "https://richmondlgbtqchamber.org/",
       "image": "/images/uploads/richmondlgbtqchamber-hlogo-color.png"
+    },
+    {
+      "name": "Richmond Public Library",
+      "url": "https://rvalibrary.org",
+      "image": "/images/uploads/richmond-public-library.jpg"
+    },
+    {
+      "name": "River City Roller Derby",
+      "url": "https://rivercityrollerderby.com/",
+      "image": "/images/uploads/3c3db574-1672-4e39-84b6-04dfbe77eee5.png"
+    },
+    {
+      "name": "Sarah Abubaker 4th District City Council",
+      "url": "https://lp.constantcontactpages.com/sl/eFSdMIF/Fourth",
+      "image": "/images/uploads/sarah-abubaker.jpg"
+    },
+    {
+      "name": "Side By Side",
+      "url": "https://www.sidebysideva.org/",
+      "image": "/images/uploads/sidebyside.jpg"
+    },
+    {
+      "name": "Stephanie Lynch 5th District City Council",
+      "url": "https://lp.constantcontactpages.com/sl/caTNztR",
+      "image": "/images/uploads/stephanie-lynch.png"
+    },
+    {
+      "name": "Studio Two Three",
+      "url": "https://studiotwothree.org",
+      "image": "/images/uploads/studio-two-three.webp"
+    },
+    {
+      "name": "Trans Jam",
+      "url": "https://transjamrva.org/",
+      "image": "/images/uploads/transjam.jpg"
+    },
+    {
+      "name": "Woodland Heights Civic Association",
+      "url": "https://woodlandheightsrva.org",
+      "image": "/images/uploads/woodland-heights.png"
     }
   ]
 }
