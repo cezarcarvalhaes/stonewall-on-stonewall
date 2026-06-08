@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "title": "Woodland Heights Getting Ready for Stonewall on Stonewall",
+      "snippet": "Woodland Heights neighborhood is coming together to reimagine “Stonewall Ave” in honor of the Stonewall Riots on June 28.",
+      "publisher": "RVA HUB",
+      "date": "2026-06-08T17:37:00.000-04:00",
+      "url": "https://rvahub.com/2026/06/08/woodland-heights-getting-ready-for-stonewall-on-stonewall/",
+      "image": "/images/uploads/rvahub.jpg"
+    },
+    {
+      "url": "https://www.wric.com/news/local-news/richmond/stonewall-on-stonewall-woodland-heights/",
+      "title": "Celebrate anniversary of Stonewall Uprising with parade, festivities in Richmond",
+      "publisher": "WRIC Richmond",
+      "image": "/images/uploads/wric.jpg"
+    },
+    {
       "title": "Stonewall on Stonewall on Saturday",
       "publisher": "RVA HUB",
       "snippet": "Stonewall on Stonewall: An LGBTQ+ Celebration in Woodland Heights",
@@ -51,12 +65,6 @@
     {
       "title": "2025 iCloud Photo Album",
       "url": "https://www.icloud.com/sharedalbum/%23B2eJPrgBGxutUi"
-    },
-    {
-      "url": "https://www.wric.com/news/local-news/richmond/stonewall-on-stonewall-woodland-heights/",
-      "title": "Celebrate anniversary of Stonewall Uprising with parade, festivities in Richmond",
-      "publisher": "WRIC Richmond",
-      "image": "/images/uploads/wric.jpg"
     }
   ]
 }
