@@ -1,27 +1,33 @@
 'use client';
 
+import { useRef } from 'react';
+import NextLink from 'next/link';
 import {
 	Box,
-	Button,
 	Container,
 	Flex,
 	Heading,
+	Link,
+	Stack,
 	Text,
 } from '@chakra-ui/react';
 
+import { SECTIONS } from '@sections/dictionary';
 import content from '@content/pages/home/sections/hero.md';
+import StickyNav from './components/StickyNav';
 
 function Hero() {
 	const { attributes, html } = content;
 	const {
-		eyebrow, title, date, location, ctaLabel, ctaLink,
+		eyebrow, title, date, location,
 	} = attributes;
+	const navRef = useRef<HTMLDivElement>(null);
 
 	return (
 		<Box
 			as='header'
 			id='top'
-			bgGradient='linear(to-br, brand.magenta, brand.purple 55%, brand.blue)'
+			className='rainbow-bg'
 			color='neutral.50'
 			py={{ base: 16, md: 24 }}
 			px={4}
@@ -44,6 +50,7 @@ function Hero() {
 					lineHeight={1.02}
 					mb={6}
 					color='neutral.50'
+					textShadow='0 2px 14px rgba(0,0,0,0.28)'
 				>
 					{title}
 				</Heading>
@@ -53,6 +60,7 @@ function Hero() {
 					flexDir={{ base: 'column', md: 'row' }}
 					fontWeight={700}
 					fontSize={{ base: 'xl', md: '2xl' }}
+					textShadow='0 2px 10px rgba(0,0,0,0.35)'
 					mb={6}
 				>
 					<Text>{date}</Text>
@@ -64,25 +72,39 @@ function Hero() {
 					maxW='40em'
 					mx='auto'
 					fontSize={{ base: 'lg', md: 'xl' }}
-					mb={8}
+					fontWeight={500}
+					textShadow='0 1px 6px rgba(0,0,0,0.3)'
+					mb={10}
 					dangerouslySetInnerHTML={{ __html: html }}
 				/>
-				{ctaLabel && ctaLink && (
-					<Button
-						as='a'
-						href={ctaLink}
-						target='_blank'
-						rel='noopener noreferrer'
-						size='lg'
-						bg='brand.yellow'
-						color='brand.ink'
-						_hover={{ bg: 'brand.orange' }}
-						px={8}
-					>
-						{ctaLabel}
-					</Button>
-				)}
+				<Stack
+					ref={navRef}
+					direction='row'
+					spacing={{ base: 4, md: 8 }}
+					justify='center'
+					flexWrap='wrap'
+					rowGap={3}
+				>
+					{SECTIONS.map(({ label, href }) => (
+						<Link
+							as={NextLink}
+							key={href}
+							href={href}
+							fontWeight={700}
+							fontSize={{ base: 'md', md: 'lg' }}
+							color='brand.yellow'
+							textDecoration='underline'
+							textUnderlineOffset='4px'
+							textDecorationThickness='2px'
+							textShadow='0 1px 6px rgba(0,0,0,0.3)'
+							_hover={{ color: 'neutral.50' }}
+						>
+							{label}
+						</Link>
+					))}
+				</Stack>
 			</Container>
+			<StickyNav triggerElementRef={navRef} />
 		</Box>
 	);
 }

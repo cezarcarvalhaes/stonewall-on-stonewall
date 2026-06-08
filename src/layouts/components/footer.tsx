@@ -17,6 +17,8 @@ const links = [
 	{ href: '/#schedule', text: 'Schedule' },
 	{ href: '/#lineup', text: 'Performers' },
 	{ href: '/#get-involved', text: 'Get Involved' },
+	{ href: '/faq', text: 'FAQ' },
+	{ href: '/press', text: 'Press' },
 ];
 
 function Footer() {

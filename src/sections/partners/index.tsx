@@ -34,7 +34,7 @@ function Partners() {
 								style={{ maxHeight: '5rem', maxWidth: '14rem', objectFit: 'contain' }}
 							/>
 						) : (
-							<Text fontSize='2xl' fontFamily='BobbyJones, sans-serif'>
+							<Text fontSize='2xl' fontWeight={800}>
 								{partner.name}
 							</Text>
 						);

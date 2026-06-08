@@ -35,8 +35,6 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Date & Time", name: "date", widget: "string" }
           - { label: "Location", name: "location", widget: "string" }
-          - { label: "Button Label", name: "ctaLabel", widget: "string", required: false }
-          - { label: "Button Link", name: "ctaLink", widget: "string", required: false }
           - { label: "Intro Text", name: "body", widget: "markdown" }
 
       - label: "Parade"
@@ -101,3 +99,48 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "faq"
+    label: "FAQ Page"
+    files:
+      - label: "Intro"
+        name: "top-section"
+        file: "content/pages/faq/top-section.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Questions"
+        name: "entries"
+        file: "content/pages/faq/entries.yml"
+        fields:
+          - label: "Questions & Answers"
+            name: "entries"
+            widget: "list"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "markdown" }
+
+  - name: "press"
+    label: "Press Page"
+    files:
+      - label: "Intro"
+        name: "top-section"
+        file: "content/pages/press/top-section.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Press Links"
+        name: "entries"
+        file: "content/pages/press/media-links.json"
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Headline / Title", name: "title", widget: "string" }
+              - { label: "Publisher", name: "publisher", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "datetime", required: false }
+              - { label: "Article URL", name: "url", widget: "string", required: false }
+              - { label: "Publication Logo/Image", name: "image", widget: "image", required: false }
+              - { label: "Snippet", name: "snippet", widget: "text", required: false }

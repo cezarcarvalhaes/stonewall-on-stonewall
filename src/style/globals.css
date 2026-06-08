@@ -4,9 +4,51 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'League Spartan', sans-serif;
 	font-size: 18px;
+}
+
+/* keep section headings clear of the sticky nav bar when jumped to */
+section[id],
+[id]:not(body) {
+	scroll-margin-top: 4.5rem;
+}
+
+/* Flyer-style rainbow: concentric arcs radiating from two corners over a
+   hot-pink base. The centre stays magenta so the white hero copy reads. */
+.rainbow-bg {
+	background-color: #e6308a;
+	background-image:
+		/* gentle pink lift behind the centred copy, blending quickly back to the
+		   base pink then out to reveal the arcs (painted on top) */
+		radial-gradient(64% 64% at 50% 42%,
+			#d11f74 0 22%,
+			#e6308a 50%,
+			rgba(230, 48, 138, 0) 80%),
+		/* rainbow arcs hugging the two bottom corners */
+		radial-gradient(circle at 0% 100%,
+			transparent 0 5%,
+			#7d3cb5 5% 9.5%,
+			#1f8fd1 9.5% 14%,
+			#3aa847 14% 18.5%,
+			#ffd23f 18.5% 23%,
+			#ff7a3d 23% 27.5%,
+			#e63946 27.5% 32%,
+			transparent 32% 100%),
+		radial-gradient(circle at 100% 100%,
+			transparent 0 5%,
+			#7d3cb5 5% 9.5%,
+			#1f8fd1 9.5% 14%,
+			#3aa847 14% 18.5%,
+			#ffd23f 18.5% 23%,
+			#ff7a3d 23% 27.5%,
+			#e63946 27.5% 32%,
+			transparent 32% 100%);
 }
 
 .markdown p {
