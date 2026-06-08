@@ -2,7 +2,7 @@
   "title": "Featured Performers & Voices",
   "entries": [
     {
-      "name": "DJ The Disco Cat",
+      "name": "DJ Disco Cat",
       "role": "Spinning all afternoon",
       "image": "",
       "link": ""
@@ -20,28 +20,26 @@
       "link": ""
     },
     {
-      "name": "Beth Marschak",
-      "role": "Opening remarks",
+      "name": "Kenya Gibson - Richmond City Council (3rd)",
+      "role": "Speaker",
       "image": "",
       "link": ""
     },
     {
-      "name": "Council Member Kenya Gibson",
-      "role": "Festivities speaker",
+      "name": "Stephanie Lynch - Richmond City Council (5th)",
+      "role": "Speaker",
       "image": "",
       "link": ""
     },
     {
-      "name": "Stephanie Lynch",
-      "role": "Festivities speaker",
+      "name": "Sarah Abubaker Richmond City Council (4th)",
+      "role": "Speaker",
       "image": "",
       "link": ""
     },
     {
-      "name": "Sarah Abubaker",
-      "role": "Festivities speaker",
-      "image": "",
-      "link": ""
+      "name": "Lt. Gov. Ghazala Hashmi",
+      "role": "Speaker"
     }
   ]
 }
