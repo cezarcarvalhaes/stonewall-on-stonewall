@@ -73,6 +73,26 @@
       "name": "River City Roller Derby",
       "url": "https://rivercityrollerderby.com/",
       "image": "/images/uploads/3c3db574-1672-4e39-84b6-04dfbe77eee5.png"
+    },
+    {
+      "name": "Rae Cousins",
+      "url": "https://www.raecousins.com/",
+      "image": "/images/uploads/cousins-logo-mc24_reverse-2-.avif"
+    },
+    {
+      "name": "Deau Eyes",
+      "url": "https://www.instagram.com/deau_eyes",
+      "image": "/images/uploads/deaueyes.jpg"
+    },
+    {
+      "name": "All the Saints Theater Company",
+      "url": "https://cargocollective.com/allthesaintstheaterco",
+      "image": "/images/uploads/attsc.png"
+    },
+    {
+      "name": "DJ Disco Cat",
+      "url": "https://www.instagram.com/thediscocat/",
+      "image": "/images/uploads/discocat.png"
     }
   ]
 }
