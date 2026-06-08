@@ -4,6 +4,7 @@ import {
 	Flex,
 	Heading,
 	Image,
+	Link,
 	Text,
 } from '@chakra-ui/react';
 
@@ -13,6 +14,51 @@ interface FoodTruck {
 	name: string;
 	image?: string;
 	url?: string;
+}
+
+const foodCardProps = {
+	bg: 'white',
+	borderRadius: 'xl',
+	boxShadow: 'sm',
+	p: 4,
+	h: { base: '6rem', md: '7rem' },
+	w: { base: '8.5rem', md: '10rem' },
+	display: 'flex',
+	alignItems: 'center',
+	justifyContent: 'center',
+} as const;
+
+function FoodTruckCard({ truck }: { truck: FoodTruck }) {
+	const inner = truck.image ? (
+		<Image
+			src={truck.image}
+			alt={truck.name}
+			maxH='4rem'
+			maxW='full'
+			objectFit='contain'
+			borderRadius='md'
+		/>
+	) : (
+		<Text fontWeight={700} textAlign='center' color='brand.ink'>
+			{truck.name}
+		</Text>
+	);
+
+	if (truck.url) {
+		return (
+			<Link
+				href={truck.url}
+				target='_blank'
+				rel='noopener noreferrer'
+				transition='all 0.15s ease'
+				_hover={{ textDecor: 'none', transform: 'translateY(-3px)', boxShadow: 'md' }}
+				{...foodCardProps}
+			>
+				{inner}
+			</Link>
+		);
+	}
+	return <Box {...foodCardProps}>{inner}</Box>;
 }
 
 function Festivities() {
@@ -48,32 +94,7 @@ function Festivities() {
 						)}
 						<Flex wrap='wrap' gap={4} justify='center'>
 							{foodTrucks.map((truck) => (
-								<Flex
-									key={truck.name}
-									bg='white'
-									borderRadius='xl'
-									boxShadow='sm'
-									p={4}
-									h={{ base: '6rem', md: '7rem' }}
-									w={{ base: '8.5rem', md: '10rem' }}
-									align='center'
-									justify='center'
-								>
-									{truck.image ? (
-										<Image
-											src={truck.image}
-											alt={truck.name}
-											maxH='4rem'
-											maxW='full'
-											objectFit='contain'
-											borderRadius='md'
-										/>
-									) : (
-										<Text fontWeight={700} textAlign='center' color='brand.ink'>
-											{truck.name}
-										</Text>
-									)}
-								</Flex>
+								<FoodTruckCard key={truck.name} truck={truck} />
 							))}
 						</Flex>
 					</Box>
