@@ -5,6 +5,7 @@ import {
 	Heading,
 	Text,
 } from '@chakra-ui/react';
+import ReactMarkdown from 'react-markdown';
 
 import schedule from '@content/pages/home/schedule.yml';
 
@@ -48,7 +49,11 @@ function Schedule() {
 								<Heading as='h3' size='md' mb={1}>
 									{entry.title}
 								</Heading>
-								{entry.description && <Text>{entry.description}</Text>}
+								{entry.description && (
+									<Box className='markdown' sx={{ '& p': { marginBottom: 0 } }}>
+										<ReactMarkdown>{entry.description}</ReactMarkdown>
+									</Box>
+								)}
 							</Box>
 						</Flex>
 					))}
