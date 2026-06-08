@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "title": "Stonewall on Stonewall on Saturday",
+      "publisher": "RVA HUB",
+      "snippet": "Stonewall on Stonewall: An LGBTQ+ Celebration in Woodland Heights",
+      "image": "/images/uploads/rvahub.jpg"
+    },
+    {
+      "title": "11 things to do in Richmond this very hot weekend",
+      "publisher": "Axios Richmond",
+      "url": "https://www.axios.com/local/richmond/2025/06/26/richmond-weekend-cool-things-to-do",
+      "image": "/images/uploads/axios.jpg"
+    },
+    {
+      "title": "Stuff To Do (June 26 - 29)",
+      "publisher": "Style Weekly",
+      "url": "https://www.styleweekly.com/june-26-29/",
+      "image": "/images/uploads/style.jpg"
+    },
+    {
       "publisher": "Richmond Magazine",
       "date": "2025-06-29T16:35:00.000-04:00",
       "url": "https://www.instagram.com/p/DLd8DqUOjiX/",
@@ -21,12 +39,24 @@
     {
       "title": "Style Weekly Photos (Instagram)",
       "publisher": "Style Weekly",
-      "url": "https://www.instagram.com/p/DLfI1-dtaP4/?img_index=1"
+      "url": "https://www.instagram.com/p/DLfI1-dtaP4/?img_index=1",
+      "image": "/images/uploads/style.jpg"
     },
     {
       "title": "Scenes from today’s “Stonewall on Stonewall” parade in Richmond’s Woodland Heights neighborhood.",
       "publisher": "Richmond Grid",
-      "url": "https://www.instagram.com/p/DLdi-geSc3i/?img_index=3"
+      "url": "https://www.instagram.com/p/DLdi-geSc3i/?img_index=3",
+      "image": "/images/uploads/gridlogo_black_small.png"
+    },
+    {
+      "title": "2025 iCloud Photo Album",
+      "url": "https://www.icloud.com/sharedalbum/%23B2eJPrgBGxutUi"
+    },
+    {
+      "url": "https://www.wric.com/news/local-news/richmond/stonewall-on-stonewall-woodland-heights/",
+      "title": "Celebrate anniversary of Stonewall Uprising with parade, festivities in Richmond",
+      "publisher": "WRIC Richmond",
+      "image": "/images/uploads/wric.jpg"
     }
   ]
 }
