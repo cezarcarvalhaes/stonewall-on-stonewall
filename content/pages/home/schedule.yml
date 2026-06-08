@@ -1,14 +1,16 @@
 title: Schedule of Events
 entries:
-  - time: "4:00 PM"
-    title: "Screenprinting Begins"
-    description: "Bring a shirt or tote and print your own Stonewall on Stonewall merch."
-  - time: "4:30 PM"
-    title: "Event Begins"
-    description: "Kickoff at W 28th + Stonewall with Delegate Rae Cousins and Beth Marschak."
-  - time: "5:00 PM"
-    title: "The Parade"
-    description: "March up Stonewall Ave from W 28th to W 34th and back. Decorate your bikes, strollers, and floats!"
-  - time: "6:00 – 7:00 PM"
-    title: "Music, Food, History + Festivities"
-    description: "Celebration at W 28th + Stonewall Ave with City Council Member Kenya Gibson, Stephanie Lynch, and Sarah Abubaker."
+  - time: 4:00 PM
+    title: Screenprinting Begins
+    description: Bring a shirt or tote and print your own Stonewall on Stonewall merch.
+  - time: 4:30 PM
+    title: Event Begins
+    description: Kickoff at W 28th + Stonewall with Delegate Rae Cousins.
+  - time: 5:00 PM
+    title: The Parade
+    description: March up Stonewall Ave from W 28th to W 34th and back. Decorate
+      your bikes, strollers, and floats!
+  - time: 6:00 – 7:00 PM
+    title: Music, Food, History + Festivities
+    description: Celebration at W 28th + Stonewall Ave with City Council Member
+      Kenya Gibson, Stephanie Lynch, and Sarah Abubaker.
