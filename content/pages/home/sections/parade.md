@@ -6,4 +6,4 @@ mapImage: /images/uploads/parade-route-map.png
 mapAlt: Stonewall on Stonewall parade route — Stonewall Ave from W 28th to W
   34th and back
 ---
-Decorate your bikes, your strollers, yourselves — make epic floats! We'll march up Stonewall Ave from W 28th to W 34th and back, then keep the party going with music, food, and history.
+Decorate your bikes, strollers, yourselves — make epic floats! We'll march up Stonewall Ave from W 28th to W 34th and back, then keep the party going with music, food, and history.
