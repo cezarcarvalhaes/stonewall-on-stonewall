@@ -32,6 +32,11 @@
       "image": "/images/uploads/health-brigade.jpg"
     },
     {
+      "name": "He She Ze & We",
+      "url": "https://heshezewe.org/",
+      "image": "/images/uploads/hszw-lglogo.png"
+    },
+    {
       "name": "HQ",
       "image": "/images/uploads/hq.jpg",
       "url": "https://hq-shop.fourthwall.com/"
@@ -40,11 +45,6 @@
       "name": "Kenya Gibson",
       "url": "https://kenyagibson.com",
       "image": "/images/uploads/kenyagibson.webp"
-    },
-    {
-      "name": "Metro Richmond Flying Squad",
-      "url": "https://rvaflyingsquad.com/",
-      "image": "/images/uploads/flying-squad.png"
     },
     {
       "name": "Rae Cousins",
