@@ -47,6 +47,11 @@
       "image": "/images/uploads/kenyagibson.webp"
     },
     {
+      "url": "https://www.instagram.com/krewe_declat/",
+      "name": "Krewe d'Eclat ",
+      "image": "/images/uploads/krewe.jpg"
+    },
+    {
       "name": "Rae Cousins",
       "url": "https://www.raecousins.com/",
       "image": "/images/uploads/cousins-logo-mc24_reverse-2-.avif"
@@ -100,11 +105,6 @@
       "name": "Woodland Heights Civic Association",
       "url": "https://woodlandheightsrva.org",
       "image": "/images/uploads/woodland-heights.png"
-    },
-    {
-      "url": "https://www.instagram.com/krewe_declat/",
-      "name": "Krewe d'Eclat ",
-      "image": "/images/uploads/krewe.jpg"
     }
   ]
 }
