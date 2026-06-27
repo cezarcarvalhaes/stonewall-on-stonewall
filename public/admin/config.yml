@@ -23,6 +23,12 @@ collections:
           - { label: "Contact Email", name: "email", widget: "string" }
           - { label: "Call-to-action Label", name: "ctaLabel", widget: "string", required: false }
           - { label: "Call-to-action Link", name: "ctaLink", widget: "string", required: false }
+      - label: "Banner"
+        name: "banner"
+        file: "content/settings/banner.json"
+        fields:
+          - { label: "Show Banner", name: "enabled", widget: "boolean", default: false }
+          - { label: "Banner Message", name: "message", widget: "string" }
 
   - name: "home"
     label: "Home Page"

@@ -2,7 +2,7 @@
 
 import Script from 'next/script';
 import type { ReactElement } from 'react';
-
+import Banner from '@sections/banner';
 import Hero from '@sections/hero';
 import Parade from '@sections/parade';
 import Schedule from '@sections/schedule';
@@ -34,6 +34,7 @@ function Home() {
 		<>
 			<Script src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
 			<main>
+				<Banner />
 				<Hero />
 				<Parade />
 				<Schedule />
