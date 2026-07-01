@@ -1,6 +1,56 @@
 {
   "entries": [
     {
+      "title": "Dave Parrish Video",
+      "url": "https://www.facebook.com/share/v/18tHuPU9pW/?mibextid=wwXIfr",
+      "date": "2026-07-01T12:32:00.000-04:00",
+      "publisher": "Dave Parrish captures a video of the 2026 parade down Stonewall Ave. "
+    },
+    {
+      "title": "Dave Parrish Photography",
+      "url": "https://www.facebook.com/share/p/1bNCA5FRtV/?mibextid=wwXIfr",
+      "date": "2026-07-01T12:31:00.000-04:00",
+      "publisher": "Dave Parrish captured photos of the 2026 parade"
+    },
+    {
+      "title": "Style Weekly",
+      "url": "https://www.instagram.com/p/DaJi3T7jafi/",
+      "date": "2026-07-01T12:33:00.000-04:00",
+      "publisher": "Instagram post"
+    },
+    {
+      "url": "https://www.facebook.com/share/p/1HCaHNM3xc/?mibextid=wwXIfr",
+      "title": "Richmond Magazine",
+      "publisher": "Photographs by Jay Paul",
+      "date": "2026-07-01T12:40:00.000-04:00"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2ZyUNAkFv3w",
+      "date": "2026-07-01T12:42:00.000-04:00",
+      "title": "WTVR Video"
+    },
+    {
+      "publisher": "",
+      "title": "WTVR News",
+      "date": "2026-07-01T12:41:00.000-04:00",
+      "url": "https://www.wtvr.com/news/local-news/richmond/stonewall-on-stonewall-woodland-heights-june-28-2026"
+    },
+    {
+      "url": "https://www.facebook.com/share/p/17CvwpjaGt/?mibextid=wwXIfr",
+      "date": "2026-07-01T12:40:00.000-04:00",
+      "title": "Richmond Grid Photographs"
+    },
+    {
+      "title": "Collaborative Neighborhood iCloud Photo Album",
+      "url": "https://www.icloud.com/sharedalbum/#B2eJPrgBGxutUi"
+    },
+    {
+      "title": "Style Weekly",
+      "date": "2026-07-01T12:39:00.000-04:00",
+      "url": "https://www.facebook.com/share/p/1DNopgA5zd/?mibextid=wwXIfr",
+      "publisher": "Facebook post of photographs from 2026"
+    },
+    {
       "title": "Woodland Heights Getting Ready for Stonewall on Stonewall",
       "snippet": "Woodland Heights neighborhood is coming together to reimagine “Stonewall Ave” in honor of the Stonewall Riots on June 28.",
       "publisher": "RVA HUB",
@@ -62,56 +112,6 @@
       "publisher": "Richmond Grid",
       "url": "https://www.instagram.com/p/DLdi-geSc3i/?img_index=3",
       "image": "/images/uploads/gridlogo_black_small.png"
-    },
-    {
-      "title": "Collaborative Neighborhood iCloud Photo Album",
-      "url": "https://www.icloud.com/sharedalbum/#B2eJPrgBGxutUi"
-    },
-    {
-      "title": "Dave Parrish Photography",
-      "url": "https://www.facebook.com/share/p/1bNCA5FRtV/?mibextid=wwXIfr",
-      "date": "2026-07-01T12:31:00.000-04:00",
-      "publisher": "Dave Parrish captured photos of the 2026 parade"
-    },
-    {
-      "title": "Dave Parrish Video",
-      "url": "https://www.facebook.com/share/v/18tHuPU9pW/?mibextid=wwXIfr",
-      "date": "2026-07-01T12:32:00.000-04:00",
-      "publisher": "Dave Parrish captures a video of the 2026 parade down Stonewall Ave. "
-    },
-    {
-      "title": "Style Weekly",
-      "url": "https://www.instagram.com/p/DaJi3T7jafi/",
-      "date": "2026-07-01T12:33:00.000-04:00",
-      "publisher": "Instagram post"
-    },
-    {
-      "title": "Style Weekly",
-      "date": "2026-07-01T12:39:00.000-04:00",
-      "url": "https://www.facebook.com/share/p/1DNopgA5zd/?mibextid=wwXIfr",
-      "publisher": "Facebook post of photographs from 2026"
-    },
-    {
-      "url": "https://www.facebook.com/share/p/1HCaHNM3xc/?mibextid=wwXIfr",
-      "title": "Richmond Magazine",
-      "publisher": "Photographs by Jay Paul",
-      "date": "2026-07-01T12:40:00.000-04:00"
-    },
-    {
-      "url": "https://www.facebook.com/share/p/17CvwpjaGt/?mibextid=wwXIfr",
-      "date": "2026-07-01T12:40:00.000-04:00",
-      "title": "Richmond Grid Photographs"
-    },
-    {
-      "publisher": "",
-      "title": "WTVR News",
-      "date": "2026-07-01T12:41:00.000-04:00",
-      "url": "https://www.wtvr.com/news/local-news/richmond/stonewall-on-stonewall-woodland-heights-june-28-2026"
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=2ZyUNAkFv3w",
-      "date": "2026-07-01T12:42:00.000-04:00",
-      "title": "WTVR Video"
     }
   ]
 }
