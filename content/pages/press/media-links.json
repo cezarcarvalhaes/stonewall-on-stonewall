@@ -4,41 +4,48 @@
       "title": "Dave Parrish Video",
       "url": "https://www.facebook.com/share/v/18tHuPU9pW/?mibextid=wwXIfr",
       "date": "2026-07-01T12:32:00.000-04:00",
-      "publisher": "Dave Parrish captures a video of the 2026 parade down Stonewall Ave. "
+      "publisher": "Dave Parrish captures a video of the 2026 parade down Stonewall Ave. ",
+      "image": "/images/uploads/images.jpg"
     },
     {
       "title": "Dave Parrish Photography",
       "url": "https://www.facebook.com/share/p/1bNCA5FRtV/?mibextid=wwXIfr",
       "date": "2026-07-01T12:31:00.000-04:00",
-      "publisher": "Dave Parrish captured photos of the 2026 parade"
+      "publisher": "Dave Parrish captured photos of the 2026 parade",
+      "image": "/images/uploads/images.jpg"
     },
     {
       "title": "Style Weekly",
       "url": "https://www.instagram.com/p/DaJi3T7jafi/",
       "date": "2026-07-01T12:33:00.000-04:00",
-      "publisher": "Instagram post"
+      "publisher": "Instagram post",
+      "image": "/images/uploads/style.jpg"
     },
     {
       "url": "https://www.facebook.com/share/p/1HCaHNM3xc/?mibextid=wwXIfr",
       "title": "Richmond Magazine",
       "publisher": "Photographs by Jay Paul",
-      "date": "2026-07-01T12:40:00.000-04:00"
+      "date": "2026-07-01T12:40:00.000-04:00",
+      "image": "/images/uploads/richmond-mag.png"
     },
     {
       "url": "https://www.youtube.com/watch?v=2ZyUNAkFv3w",
       "date": "2026-07-01T12:42:00.000-04:00",
-      "title": "WTVR Video"
+      "title": "WTVR Video",
+      "image": "/images/uploads/wtvr.jpg"
     },
     {
       "publisher": "",
       "title": "WTVR News",
       "date": "2026-07-01T12:41:00.000-04:00",
-      "url": "https://www.wtvr.com/news/local-news/richmond/stonewall-on-stonewall-woodland-heights-june-28-2026"
+      "url": "https://www.wtvr.com/news/local-news/richmond/stonewall-on-stonewall-woodland-heights-june-28-2026",
+      "image": "/images/uploads/wtvr.jpg"
     },
     {
       "url": "https://www.facebook.com/share/p/17CvwpjaGt/?mibextid=wwXIfr",
       "date": "2026-07-01T12:40:00.000-04:00",
-      "title": "Richmond Grid Photographs"
+      "title": "Richmond Grid Photographs",
+      "image": "/images/uploads/gridlogo_black_small.png"
     },
     {
       "title": "Collaborative Neighborhood iCloud Photo Album",
